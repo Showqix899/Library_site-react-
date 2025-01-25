@@ -16,7 +16,7 @@ const Login = ({ setLoggedInUser }) => {
     if (user) {
       setLoggedInUser(user);
       alert(`Welcome, ${user.full_name}!`);
-      navigate("/"); // Redirect to Home page
+      navigate("/");
     } else {
       alert("Invalid username or password.");
     }
